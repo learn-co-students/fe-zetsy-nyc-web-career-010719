@@ -27,3 +27,8 @@ h1 {
   font-family: 'Baskerville', serif;
   border-bottom: 1px solid #ccc;
 }
+
+h2 {
+  color: rgb(115, 126, 121);
+  font_size: 2em;
+}
