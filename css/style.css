@@ -48,6 +48,10 @@ p {
 	margin: 0 0 20px 0;
 }
 
+#press {
+	margin-bottom: 20px;
+}
+
 #press img {
 	border: 5px #ccc solid;
 	padding: 1px;
@@ -58,4 +62,13 @@ p {
 	border: 5px rgb(114,127,122) solid;
 	padding: 1px;
 	cursor: pointer;
+}
+
+footer {
+	text-align: right;
+	background: #fff
+}
+
+.small {
+	font-size: 0.8em;
 }
