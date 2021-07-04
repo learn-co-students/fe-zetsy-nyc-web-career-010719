@@ -1,13 +1,18 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
+@import url('http://learn-co-curriculum.github.io/fe-zetsy/fonts/Baskerville.ttc')
 
 /*////////// Global Styles //////////*/
+head {
+	height: 0;
+	line-height: 0;
+}
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +23,97 @@ body {
 }
 
 /* Write all remaining styles here */
+* {
+	background: #F3EBE9;
+}
+
+.wrapper h1 {
+	background: #fff;
+	border-bottom-width: 1px;
+	border-bottom-color: #ccc;
+	border-bottom-style: solid;
+	margin-bottom: 0.1em;
+}
+
+h1 #zetsy {
+	font-family: Baskerville, serif;
+	font-size: 2.5em;
+	font-weight: strong;
+	color: #98ada6;
+	background: #fff;
+	line-height: 135%;
+}
+
+.wrapper h2 {
+	font-family: 'Times New Roman', serif;
+	font-size: 2em;
+	color: #6f7f7a;
+	background: #fff;
+}
+
+p {
+	background: #fff;
+	color: #555;
+	font-family: 'Times New Roman', serif;
+}
+
+figure.hero {
+	width: 960px;
+	height: 483px;
+	background:	#879D95;
+	margin: 0;
+}
+
+#hero-img {
+	width: 950px;
+	margin: 5px;
+}
+
+.press-wrapper {
+	width: 960px;
+	margin: 0 auto;
+	background: #fff;
+	padding: 0;
+}
+
+img[alt="National Museum of the American Indian"] {
+	background: #BDBDBD;
+	padding: 5px;
+	float: left;
+}
+
+img[alt="New York Times"] {
+	background: #BDBDBD;
+	padding: 5px;
+	margin-left: 8px;
+	float: left;
+}
+
+img[alt="Sedona Monthly"] {
+	background: #BDBDBD;
+	padding: 5px;
+	margin-left: 8px;
+	float: left;
+}
+
+img[alt="Bergdorf Goodman"] {
+	background: #BDBDBD;
+	padding: 5px;
+	margin-bottom: 1em;
+	float: right;
+}
+
+.clearfix:after {
+	content: ".";
+	visibility: hidden;
+	display: block;
+	clear: both;
+	line-height: 0;
+	height: 0;
+}
+
+#captionok {
+	float: right;
+	color: #555;
+	font-size: 0.8em;
+}
